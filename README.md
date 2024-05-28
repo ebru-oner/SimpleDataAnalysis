@@ -7,13 +7,13 @@ Simple data analysis with python libraries
 - Scientific Computing Libraries
   - **Pandas:** Data structures and tools
   - **NumPy:** Array and matrices
-  - **SciPy:** Integrals, solving differential equiations, optimization
+  - **SciPy:** Integrals, solving differential equations, optimization
 - Visualization Libraries
   - **Matplotlib:** Plots and graphs
   - **Seaborn:** Plots:Heatmaps, time seris, violin plots
 - Algorithmic Libraries
-  - **Scikit-learn:** Machine leraning: Regression, classification.
-  - **Statsmodel:** Explore data, estiamte statistical models, perform statistical tests
+  - **Scikit-learn:** Machine learning: Regression, classification.
+  - **Statsmodel:** Explore data, estimate statistical models, perform statistical tests
 
 ## Importing & Exporting Data
 
@@ -309,10 +309,10 @@ df['Fuel Type'] = df['Fuel Type'].map({'Gas': 0, 'Diesel': 1})
 
 # Exploratory Data Analysis
 
-Understand the underlying patterns, structures and relationships within the dataset befire applying modeling and hypothesis testing.
+Understand the underlying patterns, structures and relationships within the dataset before applying modeling and hypothesis testing.
 
 - Understanding the data structure
-- Detecting outliers ana anomalies
+- Detecting outliers and anomalies
 - Uncovering patterns and relationships
 - Generating hypothesis
 
@@ -330,9 +330,9 @@ Understand the underlying patterns, structures and relationships within the data
   - **75%:** third quartile
   - **max:** maximum value
 
-- value_counts(): count the unique values in a series. Useful to understand the distribution onf the values.
+- value_counts(): count the unique values in a series. Useful to understand the distribution of the values.
 
-- Box plot: also known as Whisker plot. Useful for identifying the outliers and undrstanding the spread and skeweness of the data. Visualize the distribution of data based on a five number summary
+- Box plot: also known as Whisker plot. Useful for identifying the outliers and understanding the spread and skeweness of the data. Visualize the distribution of data based on a five number summary
   1. Minimum
   2. First quartile(Q1)
   3. Median(Q2)
